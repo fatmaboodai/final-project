@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap');
+body{
+    background: url(images/33.jpg);
+    background-size:cover;
+    background-attachment:scroll;  
+      font-family: 'Rubik', sans-serif;
+}
+.head{
+    font-size:5.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #3a5a40;
+    margin:70px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+}
+.head:hover{
+    text-shadow: 5px 5px #3a5a4091;
+}
+.header{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+
+}
+.recipe-cards{
+width: 95%;
+height: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+margin:3rem;
+}
+.card-title{
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.card-body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.card{
+    margin:40px;
+    display: inline;
+}
+.card:hover{
+box-shadow: 5px 5px 25px white ;
+transition: all  0.5s  ease-in-out;
+transform: scale(1.5);
+}
+.btn{
+    text-transform: uppercase;
+    background-color: #3a5a40;
+}
+h5{
+    margin:0px ;
+}
+input{
+    width: 200px;
+    height: 50px;
+    border-bottom: 5px solid #3a5a40;
+    border:none;
+    outline: none;
+    background-color: transparent;
+   
+
+}
+button{
+    width: 150px;
+    height: 40px;
+    border: 5px solid #3a5a40;
+    border:none;
+    outline-color: #3a5a40;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 2rem;
+     margin:20px;
+     text-align: center;
+     background-color:#3a5a40;
+}
+.clean button:hover{
+    box-shadow: 5px 5px 25px white ;
+    transition: all  0.5s  ease-in-out;
+    transform: scale(1.5);
+}
+ .clean button{
+text-transform: uppercase;
+}
+.clean{
+    display: flex;
+    justify-content: space-around;
+}
