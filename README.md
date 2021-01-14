@@ -32,4 +32,6 @@
 4. if else condition
 5. they can reach us with the contact us form ▶︎
 
+### رابط موقعي
+ 
 ## ❤️❤️ وبس والله
