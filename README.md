@@ -33,5 +33,5 @@
 5. they can reach us with the contact us form ▶︎
 
 ### رابط موقعي
- <a>homemadecooking.netlify.app</a>
+homemadecooking.netlify.app
 ## ❤️❤️ وبس والله
