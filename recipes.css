@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap');
 body{
-    background: url(images/33.jpg);
+    background: url(images/nikita-bren-pmXNWp4Kz3A-unsplash.jpg);
     background-size:cover;
     background-attachment:scroll;  
       font-family: 'Rubik', sans-serif;
@@ -53,11 +53,11 @@ margin:3rem;
 .card{
     margin:40px;
     display: inline;
+
 }
 .card:hover{
-box-shadow: 5px 5px 25px white ;
-transition: all  0.5s  ease-in-out;
-transform: scale(1.5);
+box-shadow: 10px 10px 25px #3a5a40 ;
+
 }
 .btn{
     text-transform: uppercase;
@@ -87,14 +87,16 @@ button{
     font-size: 2rem;
      text-align: center;
      background-color:#3a5a40;
+
 }
 .clean button:hover{
     box-shadow: 5px 5px 25px white ;
-    transition: all  0.5s  ease-in-out;
-    transform: scale(1.5);
+    color: white;
+    font-size: large;
 }
  .clean button{
 text-transform: uppercase;
+
 }
 .clean{
     display: flex;
